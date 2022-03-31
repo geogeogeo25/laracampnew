@@ -8,5 +8,5 @@ use Illuminate\Database\Eloquent\Model;
 class campBenefit extends Model
 {
     use HasFactory;
-    protected sfillable = ['name'];
+    protected $fillable = ['name'];
 }
