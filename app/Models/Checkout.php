@@ -10,5 +10,5 @@ class Checkout extends Model
 {
     use HasFactory, softDeletes;
 
-    protected sfillable =['user_id','camp_id','card_number','exspired','cvc','is_paid'];
+    protected sfillable ['user_id','camp_id','card_number','expired','cvc','is_paid'];
 }
